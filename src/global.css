@@ -1,0 +1,26 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url('../src/img/bg_login.jpg') center no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+:root {
+  --main-green: rgb(204, 219, 1);
+  --main-green-hover: rgb(154, 169, 1);
+  --secondary-button: #ddd;
+  --secondary-button-hover: #aaa;
+  --title-green: rgb(178, 191, 54);
+}

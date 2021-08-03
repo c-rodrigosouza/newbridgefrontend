@@ -1,0 +1,29 @@
+.text-input-container {
+  width: 340px;
+  position: relative;
+}
+
+.text-input {
+  font-family: 'Montserrat';
+  background-color: var(--main-green);
+  width: 100%;
+  border: none;
+  outline: none;
+  text-indent: 48px;
+  color: #000;
+  font-family: arial;
+  border-radius: 14px;
+  padding: 6px 0px;
+}
+
+.text-input::placeholder {
+  color: #555;
+}
+
+.text-input-icon {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  font-size: 12px;
+}
